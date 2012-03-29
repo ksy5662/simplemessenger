@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7AED76214C521B900BC44FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AED76114C521B900BC44FC /* UIKit.framework */; };
+		A7AED76414C521B900BC44FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AED76314C521B900BC44FC /* Foundation.framework */; };
+		A7AED76614C521B900BC44FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AED76514C521B900BC44FC /* CoreGraphics.framework */; };
+		A7AED76C14C521B900BC44FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7AED76A14C521B900BC44FC /* InfoPlist.strings */; };
+		A7AED76E14C521B900BC44FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AED76D14C521B900BC44FC /* main.m */; };
+		A7AED77214C521B900BC44FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AED77114C521B900BC44FC /* AppDelegate.m */; };
+		A7AED77514C521B900BC44FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AED77414C521B900BC44FC /* ViewController.m */; };
+		A7AED77814C521B900BC44FC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7AED77614C521B900BC44FC /* ViewController.xib */; };
+		A7AED78014C521B900BC44FC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AED77F14C521B900BC44FC /* SenTestingKit.framework */; };
+		A7AED78114C521B900BC44FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AED76114C521B900BC44FC /* UIKit.framework */; };
+		A7AED78214C521B900BC44FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AED76314C521B900BC44FC /* Foundation.framework */; };
+		A7AED78A14C521B900BC44FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7AED78814C521B900BC44FC /* InfoPlist.strings */; };
+		A7AED78D14C521B900BC44FC /* SimpleMessengerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AED78C14C521B900BC44FC /* SimpleMessengerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7AED78314C521B900BC44FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7AED75414C521B800BC44FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7AED75C14C521B800BC44FC;
+			remoteInfo = SimpleMessenger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7AED75D14C521B900BC44FC /* SimpleMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AED76114C521B900BC44FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7AED76314C521B900BC44FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7AED76514C521B900BC44FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7AED76914C521B900BC44FC /* SimpleMessenger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleMessenger-Info.plist"; sourceTree = "<group>"; };
+		A7AED76B14C521B900BC44FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7AED76D14C521B900BC44FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7AED76F14C521B900BC44FC /* SimpleMessenger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleMessenger-Prefix.pch"; sourceTree = "<group>"; };
+		A7AED77014C521B900BC44FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A7AED77114C521B900BC44FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A7AED77314C521B900BC44FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A7AED77414C521B900BC44FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A7AED77714C521B900BC44FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A7AED77E14C521B900BC44FC /* SimpleMessengerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMessengerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AED77F14C521B900BC44FC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A7AED78714C521B900BC44FC /* SimpleMessengerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleMessengerTests-Info.plist"; sourceTree = "<group>"; };
+		A7AED78914C521B900BC44FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7AED78B14C521B900BC44FC /* SimpleMessengerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleMessengerTests.h; sourceTree = "<group>"; };
+		A7AED78C14C521B900BC44FC /* SimpleMessengerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleMessengerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7AED75A14C521B800BC44FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AED76214C521B900BC44FC /* UIKit.framework in Frameworks */,
+				A7AED76414C521B900BC44FC /* Foundation.framework in Frameworks */,
+				A7AED76614C521B900BC44FC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AED77A14C521B900BC44FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AED78014C521B900BC44FC /* SenTestingKit.framework in Frameworks */,
+				A7AED78114C521B900BC44FC /* UIKit.framework in Frameworks */,
+				A7AED78214C521B900BC44FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7AED75214C521B800BC44FC = {
+			isa = PBXGroup;
+			children = (
+				A7AED76714C521B900BC44FC /* SimpleMessenger */,
+				A7AED78514C521B900BC44FC /* SimpleMessengerTests */,
+				A7AED76014C521B900BC44FC /* Frameworks */,
+				A7AED75E14C521B900BC44FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7AED75E14C521B900BC44FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AED75D14C521B900BC44FC /* SimpleMessenger.app */,
+				A7AED77E14C521B900BC44FC /* SimpleMessengerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7AED76014C521B900BC44FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7AED76114C521B900BC44FC /* UIKit.framework */,
+				A7AED76314C521B900BC44FC /* Foundation.framework */,
+				A7AED76514C521B900BC44FC /* CoreGraphics.framework */,
+				A7AED77F14C521B900BC44FC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7AED76714C521B900BC44FC /* SimpleMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				A7AED77014C521B900BC44FC /* AppDelegate.h */,
+				A7AED77114C521B900BC44FC /* AppDelegate.m */,
+				A7AED77314C521B900BC44FC /* ViewController.h */,
+				A7AED77414C521B900BC44FC /* ViewController.m */,
+				A7AED77614C521B900BC44FC /* ViewController.xib */,
+				A7AED76814C521B900BC44FC /* Supporting Files */,
+			);
+			path = SimpleMessenger;
+			sourceTree = "<group>";
+		};
+		A7AED76814C521B900BC44FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AED76914C521B900BC44FC /* SimpleMessenger-Info.plist */,
+				A7AED76A14C521B900BC44FC /* InfoPlist.strings */,
+				A7AED76D14C521B900BC44FC /* main.m */,
+				A7AED76F14C521B900BC44FC /* SimpleMessenger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7AED78514C521B900BC44FC /* SimpleMessengerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7AED78B14C521B900BC44FC /* SimpleMessengerTests.h */,
+				A7AED78C14C521B900BC44FC /* SimpleMessengerTests.m */,
+				A7AED78614C521B900BC44FC /* Supporting Files */,
+			);
+			path = SimpleMessengerTests;
+			sourceTree = "<group>";
+		};
+		A7AED78614C521B900BC44FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AED78714C521B900BC44FC /* SimpleMessengerTests-Info.plist */,
+				A7AED78814C521B900BC44FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7AED75C14C521B800BC44FC /* SimpleMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AED79014C521B900BC44FC /* Build configuration list for PBXNativeTarget "SimpleMessenger" */;
+			buildPhases = (
+				A7AED75914C521B800BC44FC /* Sources */,
+				A7AED75A14C521B800BC44FC /* Frameworks */,
+				A7AED75B14C521B800BC44FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMessenger;
+			productName = SimpleMessenger;
+			productReference = A7AED75D14C521B900BC44FC /* SimpleMessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7AED77D14C521B900BC44FC /* SimpleMessengerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AED79314C521B900BC44FC /* Build configuration list for PBXNativeTarget "SimpleMessengerTests" */;
+			buildPhases = (
+				A7AED77914C521B900BC44FC /* Sources */,
+				A7AED77A14C521B900BC44FC /* Frameworks */,
+				A7AED77B14C521B900BC44FC /* Resources */,
+				A7AED77C14C521B900BC44FC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7AED78414C521B900BC44FC /* PBXTargetDependency */,
+			);
+			name = SimpleMessengerTests;
+			productName = SimpleMessengerTests;
+			productReference = A7AED77E14C521B900BC44FC /* SimpleMessengerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7AED75414C521B800BC44FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A7AED75714C521B800BC44FC /* Build configuration list for PBXProject "SimpleMessenger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7AED75214C521B800BC44FC;
+			productRefGroup = A7AED75E14C521B900BC44FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7AED75C14C521B800BC44FC /* SimpleMessenger */,
+				A7AED77D14C521B900BC44FC /* SimpleMessengerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7AED75B14C521B800BC44FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AED76C14C521B900BC44FC /* InfoPlist.strings in Resources */,
+				A7AED77814C521B900BC44FC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AED77B14C521B900BC44FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AED78A14C521B900BC44FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7AED77C14C521B900BC44FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7AED75914C521B800BC44FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AED76E14C521B900BC44FC /* main.m in Sources */,
+				A7AED77214C521B900BC44FC /* AppDelegate.m in Sources */,
+				A7AED77514C521B900BC44FC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AED77914C521B900BC44FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AED78D14C521B900BC44FC /* SimpleMessengerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7AED78414C521B900BC44FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7AED75C14C521B800BC44FC /* SimpleMessenger */;
+			targetProxy = A7AED78314C521B900BC44FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7AED76A14C521B900BC44FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AED76B14C521B900BC44FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7AED77614C521B900BC44FC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AED77714C521B900BC44FC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		A7AED78814C521B900BC44FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AED78914C521B900BC44FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7AED78E14C521B900BC44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Junil Ko (RNPP5V82N7)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B0959CEE-E6C7-4124-A839-31600CB24E62";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A7AED78F14C521B900BC44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Junil Ko (RNPP5V82N7)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B0959CEE-E6C7-4124-A839-31600CB24E62";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7AED79114C521B900BC44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMessenger/SimpleMessenger-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMessenger/SimpleMessenger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7AED79214C521B900BC44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMessenger/SimpleMessenger-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMessenger/SimpleMessenger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A7AED79414C521B900BC44FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleMessenger.app/SimpleMessenger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMessenger/SimpleMessenger-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMessengerTests/SimpleMessengerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A7AED79514C521B900BC44FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleMessenger.app/SimpleMessenger";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleMessenger/SimpleMessenger-Prefix.pch";
+				INFOPLIST_FILE = "SimpleMessengerTests/SimpleMessengerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7AED75714C521B800BC44FC /* Build configuration list for PBXProject "SimpleMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AED78E14C521B900BC44FC /* Debug */,
+				A7AED78F14C521B900BC44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AED79014C521B900BC44FC /* Build configuration list for PBXNativeTarget "SimpleMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AED79114C521B900BC44FC /* Debug */,
+				A7AED79214C521B900BC44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AED79314C521B900BC44FC /* Build configuration list for PBXNativeTarget "SimpleMessengerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AED79414C521B900BC44FC /* Debug */,
+				A7AED79514C521B900BC44FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7AED75414C521B800BC44FC /* Project object */;
+}
